@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+div#app {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 90vh;
+  height: 90vw;
+}
+div#app hr {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
