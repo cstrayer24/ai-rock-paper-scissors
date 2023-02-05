@@ -14,7 +14,7 @@ class determinWinner {
       { input: ["rock", "paper"], output: "true " },
       { input: ["scissors", "paper"], output: "false" },
       { input: ["paper", "scissors"], output: "true " },
-      { input: ["scissors", "rock"], output: "true " },
+      { input: ["scissors", "rock"], output: "false " },
       { input: ["paper", "rock"], output: "false" },
       { input: ["scissors", "rock"], output: "false" },
     ]);

@@ -8,8 +8,9 @@ const determine = new determinWinner();
 
 runBtn.addEventListener("click", () => {
   const [input, output] = ai.run(selection.value);
-  aiOut.innerHTML += output;
+  aiOut.innerHTML = `ai answer:${output}`;
   const result = determine.run([input, output]);
+  console.log(result);
   if (result === "false") {
     document.body.style.background = "green";
   } else {
